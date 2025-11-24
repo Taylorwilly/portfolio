@@ -77,7 +77,7 @@ function App() {
           </p>
           <p>
             Email:{" "}
-            <a href="mailto:williammotsou@gmail.com">your-email@example.com</a>
+            <a href="mailto:williammotsou@gmail.com">williammotsou@gmail.com</a>
           </p>
           <p>
             GitHub:{" "}
