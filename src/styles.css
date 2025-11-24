@@ -1,0 +1,90 @@
+/* Reset / base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+/* Layout */
+.page {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 96px 16px 32px;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: rgba(15, 23, 42, 0.9);
+  border-bottom: 1px solid #1f2937;
+}
+
+.navbar-title {
+  font-weight: 600;
+}
+
+.nav-links a {
+  margin-left: 16px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #22d3ee;
+}
+
+/* Sections */
+section {
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 8px;
+  color: #9ca3af;
+}
+
+/* Project cards */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background: #020617;
+}
